@@ -155,11 +155,11 @@ header{
 }
 /* Header background */
 .header-background {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    margin-left: -5rem;
+    margin-top: -2rem;
     background-color: var(--green-container-color);
-    padding: -10px;
+    padding: 10px;
     box-shadow: -10px -10px #70b5a6;
 }
 
@@ -188,7 +188,7 @@ header{
   width: 100%;
   height: 100vh;
   background: url("img/my-projects.jpg") center no-repeat;
-  opacity: 0.7;
+  opacity: 0.8;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -708,8 +708,16 @@ footer{
   .newsletter-btn{
     margin-left: 7.5rem;
   }
-}
 
+  .header-background {
+      width: 50%;
+      height: 100%;
+      margin-left: -5rem;
+      background-color: var(--green-container-color);
+      padding: -10px;
+      box-shadow: -10px -10px #70b5a6;
+  }
+}
 
 /*Animations*/
 @keyframes fadeUp{
