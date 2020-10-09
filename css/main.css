@@ -1,0 +1,41 @@
+.coffee-cycle-container {
+  position: absolute;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  border: .2rem solid #ffffff;
+  border-radius: 100%;
+  transform: translate(-50%, -50%); }
+
+.coffee-cycle-container div {
+  width: 18rem;
+  height: 18rem;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin: -9rem; }
+
+.coffee-cycle-container div:nth-child(1) {
+  transform: rotate(1deg) translate(300px) rotate(-1deg); }
+
+.coffee-cycle-container div:nth-child(2) {
+  transform: rotate(52.4285714286deg) translate(300px) rotate(-52.4285714286deg); }
+
+.coffee-cycle-container div:nth-child(3) {
+  transform: rotate(103.8571428571deg) translate(300px) rotate(-103.8571428571deg); }
+
+.coffee-cycle-container div:nth-child(4) {
+  transform: rotate(155.2857142857deg) translate(300px) rotate(-155.2857142857deg); }
+
+.coffee-cycle-container div:nth-child(5) {
+  transform: rotate(206.7142857143deg) translate(300px) rotate(-206.7142857143deg); }
+
+.coffee-cycle-container div:nth-child(6) {
+  transform: rotate(258.1428571429deg) translate(300px) rotate(-258.1428571429deg); }
+
+.coffee-cycle-container div:nth-child(7) {
+  transform: rotate(309.5714285714deg) translate(300px) rotate(-309.5714285714deg); }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+$num-elements: 7;
+$radius: 600px;
+$circle-size: 18rem;
+$angle: 360/$num-elements;
+$rot: 0;
+
+.coffee-cycle-container{
+  position: absolute;
+  left: 50%;
+  // top: 50%;
+  width: $radius;
+  height: $radius;
+  border: .2rem solid #ffffff;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.coffee-cycle-container div{
+  width: $circle-size;
+  height: $circle-size;
+  background-color: #ffffff;
+  position: absolute;;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin: -($circle-size/2);
+}
+
+@for $i from 1 through $num-elements{
+  .coffee-cycle-container div:nth-child(#{$i}){
+    transform: rotate($rot + 1deg)
+    translate($radius/2)
+    rotate(-$rot + -1deg);
+  }
+  $rot: $rot + $angle;
+}
